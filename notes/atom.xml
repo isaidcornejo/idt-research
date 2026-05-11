@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://isaidcornejo.github.io/ipi-research/notes</id>
+    <title>IPI Research Platform Blog</title>
+    <updated>2026-05-11T08:48:06.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://isaidcornejo.github.io/ipi-research/notes"/>
+    <subtitle>IPI Research Platform Blog</subtitle>
+    <icon>https://isaidcornejo.github.io/ipi-research/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Welcome to Research Notes]]></title>
+        <id>https://isaidcornejo.github.io/ipi-research/notes/welcome</id>
+        <link href="https://isaidcornejo.github.io/ipi-research/notes/welcome"/>
+        <updated>2026-05-11T08:48:06.000Z</updated>
+        <summary type="html"><![CDATA[Essays, notes, and exploratory writing for the IPI Research Platform.]]></summary>
+        <content type="html"><![CDATA[<p>Research Notes is a space dedicated to exploratory writing connected to the broader goals of the IPI Research Platform.</p>
+<p>Not every idea begins as a complete theory.<br>
+<!-- -->Not every meaningful insight emerges fully formalized.</p>
+<p>Many research directions begin as:</p>
+<ul>
+<li class="">partial intuitions,</li>
+<li class="">unresolved observations,</li>
+<li class="">conceptual tensions,</li>
+<li class="">explanatory gaps,</li>
+<li class="">recurring structural patterns,</li>
+<li class="">or attempts to connect ideas that were previously isolated from one another.</li>
+</ul>
+<p>This space exists to preserve and develop those intermediate layers of thought without demanding artificial completeness from the start.</p>
+<!-- -->
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="purpose">Purpose<a href="https://isaidcornejo.github.io/ipi-research/notes/welcome#purpose" class="hash-link" aria-label="Direct link to Purpose" title="Direct link to Purpose" translate="no">​</a></h2>
+<p>The purpose of Research Notes is to make complex ideas:</p>
+<ul>
+<li class="">more understandable,</li>
+<li class="">more navigable,</li>
+<li class="">and more open to meaningful collaboration.</li>
+</ul>
+<p>The notes published here may include:</p>
+<ul>
+<li class="">conceptual essays,</li>
+<li class="">explanatory articles,</li>
+<li class="">interdisciplinary bridges,</li>
+<li class="">mathematical intuitions,</li>
+<li class="">computational observations,</li>
+<li class="">philosophical reflections,</li>
+<li class="">technical commentary,</li>
+<li class="">or unfinished research directions.</li>
+</ul>
+<p>The emphasis is placed on:</p>
+<ul>
+<li class="">clarity,</li>
+<li class="">structural coherence,</li>
+<li class="">intellectual honesty regarding uncertainty,</li>
+<li class="">and progressive refinement over premature certainty.</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="why-this-exists">Why This Exists<a href="https://isaidcornejo.github.io/ipi-research/notes/welcome#why-this-exists" class="hash-link" aria-label="Direct link to Why This Exists" title="Direct link to Why This Exists" translate="no">​</a></h2>
+<p>Modern research is frequently fragmented across:</p>
+<ul>
+<li class="">disciplines,</li>
+<li class="">technical languages,</li>
+<li class="">isolated academic communities,</li>
+<li class="">and disconnected conceptual frameworks.</li>
+</ul>
+<p>As a consequence, researchers often work on structurally similar problems without realizing that meaningful overlap already exists elsewhere.</p>
+<p>The platform is built around a simple principle:</p>
+<blockquote>
+<p>Integration before duplication.</p>
+</blockquote>
+<p>Research becomes significantly more powerful when ideas are capable of interacting across boundaries.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="formalism-and-exploration">Formalism and Exploration<a href="https://isaidcornejo.github.io/ipi-research/notes/welcome#formalism-and-exploration" class="hash-link" aria-label="Direct link to Formalism and Exploration" title="Direct link to Formalism and Exploration" translate="no">​</a></h2>
+<p>The platform welcomes rigorous technical and formal work.</p>
+<p>At the same time, exploratory thinking is treated as a legitimate and necessary part of research development rather than something that must remain hidden until fully completed.</p>
+<p>A useful intuition is often more valuable than premature certainty.</p>
+<p>The important distinction is not whether an idea is finished, but whether its current state is communicated clearly enough to allow meaningful engagement.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="what-you-will-find-here">What You Will Find Here<a href="https://isaidcornejo.github.io/ipi-research/notes/welcome#what-you-will-find-here" class="hash-link" aria-label="Direct link to What You Will Find Here" title="Direct link to What You Will Find Here" translate="no">​</a></h2>
+<p>Over time, this section may contain:</p>
+<ul>
+<li class="">essays,</li>
+<li class="">conceptual bridges,</li>
+<li class="">technical commentary,</li>
+<li class="">project development notes,</li>
+<li class="">reflections on scientific structure,</li>
+<li class="">explanations of difficult concepts,</li>
+<li class="">and interdisciplinary explorations.</li>
+</ul>
+<p>Some texts may eventually evolve into formal research projects.<br>
+<!-- -->Others may remain exploratory indefinitely.</p>
+<p>Both outcomes are valid.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="final-thought">Final Thought<a href="https://isaidcornejo.github.io/ipi-research/notes/welcome#final-thought" class="hash-link" aria-label="Direct link to Final Thought" title="Direct link to Final Thought" translate="no">​</a></h2>
+<p>Research is not only the production of conclusions.</p>
+<p>It is also the process of making structures understandable enough that other people can meaningfully interact with them.</p>
+<p>That process is rarely linear.<br>
+<!-- -->It is often incomplete, iterative, and messy.</p>
+<p>This space exists for that part of research as well.</p>
+<hr>
+<blockquote>
+<p>Human cognition: repeatedly rediscovering the universe one partially organized markdown file at a time.</p>
+</blockquote>]]></content>
+        <author>
+            <name>Isaid Cornejo</name>
+        </author>
+        <category label="research" term="research"/>
+        <category label="interdisciplinary" term="interdisciplinary"/>
+        <category label="collaboration" term="collaboration"/>
+        <category label="systems" term="systems"/>
+        <category label="science" term="science"/>
+    </entry>
+</feed>

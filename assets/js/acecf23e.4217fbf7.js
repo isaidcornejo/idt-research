@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkipi_research=self.webpackChunkipi_research||[]).push([["220"],{1912(e){e.exports=JSON.parse('{"blogBasePath":"/ipi-research/notes","blogTitle":"Research Notes","authorsListPath":"/ipi-research/notes/authors"}')}}]);

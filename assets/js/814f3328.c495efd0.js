@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkipi_research=self.webpackChunkipi_research||[]).push([["833"],{5513(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Welcome to Research Notes","permalink":"/ipi-research/notes/welcome","unlisted":false,"date":"2026-05-11T08:48:06.000Z"}]}')}}]);

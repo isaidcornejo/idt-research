@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>IPI Research Platform Blog</title>
+        <link>https://isaidcornejo.github.io/ipi-research/es/notes</link>
+        <description>IPI Research Platform Blog</description>
+        <lastBuildDate>Mon, 11 May 2026 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>es</language>
+        <item>
+            <title><![CDATA[Bienvenido a Notas de Investigación]]></title>
+            <link>https://isaidcornejo.github.io/ipi-research/es/notes/welcome</link>
+            <guid>https://isaidcornejo.github.io/ipi-research/es/notes/welcome</guid>
+            <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Ensayos, notas y escritura exploratoria para la plataforma IPI Research.]]></description>
+            <content:encoded><![CDATA[<p>Research Notes es un espacio dedicado a escritura exploratoria conectada con los objetivos más amplios de la plataforma IPI Research.</p>
+<p>No toda idea comienza como una teoría completa.<br>
+<!-- -->No toda intuición significativa emerge completamente formalizada.</p>
+<p>Muchas direcciones de investigación comienzan como:</p>
+<ul>
+<li class="">intuiciones parciales,</li>
+<li class="">observaciones no resueltas,</li>
+<li class="">tensiones conceptuales,</li>
+<li class="">vacíos explicativos,</li>
+<li class="">patrones estructurales recurrentes,</li>
+<li class="">o intentos de conectar ideas previamente aisladas entre sí.</li>
+</ul>
+<p>Este espacio existe para preservar y desarrollar esas capas intermedias del pensamiento sin exigir una completitud artificial desde el inicio.</p>
+<!-- -->
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="propósito">Propósito<a href="https://isaidcornejo.github.io/ipi-research/es/notes/welcome#prop%C3%B3sito" class="hash-link" aria-label="Enlace directo a Propósito" title="Enlace directo a Propósito" translate="no">​</a></h2>
+<p>El propósito de Research Notes es hacer que las ideas complejas sean:</p>
+<ul>
+<li class="">más comprensibles,</li>
+<li class="">más navegables,</li>
+<li class="">y más abiertas a colaboración significativa.</li>
+</ul>
+<p>Las notas publicadas aquí pueden incluir:</p>
+<ul>
+<li class="">ensayos conceptuales,</li>
+<li class="">artículos explicativos,</li>
+<li class="">puentes interdisciplinarios,</li>
+<li class="">intuiciones matemáticas,</li>
+<li class="">observaciones computacionales,</li>
+<li class="">reflexiones filosóficas,</li>
+<li class="">comentarios técnicos,</li>
+<li class="">o direcciones de investigación aún incompletas.</li>
+</ul>
+<p>El énfasis se coloca en:</p>
+<ul>
+<li class="">claridad,</li>
+<li class="">coherencia estructural,</li>
+<li class="">honestidad intelectual respecto a la incertidumbre,</li>
+<li class="">y refinamiento progresivo por encima de la certeza prematura.</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="por-qué-existe-esto">Por Qué Existe Esto<a href="https://isaidcornejo.github.io/ipi-research/es/notes/welcome#por-qu%C3%A9-existe-esto" class="hash-link" aria-label="Enlace directo a Por Qué Existe Esto" title="Enlace directo a Por Qué Existe Esto" translate="no">​</a></h2>
+<p>La investigación moderna suele encontrarse fragmentada entre:</p>
+<ul>
+<li class="">disciplinas,</li>
+<li class="">lenguajes técnicos,</li>
+<li class="">comunidades académicas aisladas,</li>
+<li class="">y marcos conceptuales desconectados.</li>
+</ul>
+<p>Como consecuencia, investigadores frecuentemente trabajan sobre problemas estructuralmente similares sin darse cuenta de que ya existen puntos de convergencia importantes en otros lugares.</p>
+<p>La plataforma está construida alrededor de un principio simple:</p>
+<blockquote>
+<p>Integración antes que duplicación.</p>
+</blockquote>
+<p>La investigación se vuelve significativamente más poderosa cuando las ideas pueden interactuar a través de fronteras conceptuales y disciplinarias.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="formalismo-y-exploración">Formalismo y Exploración<a href="https://isaidcornejo.github.io/ipi-research/es/notes/welcome#formalismo-y-exploraci%C3%B3n" class="hash-link" aria-label="Enlace directo a Formalismo y Exploración" title="Enlace directo a Formalismo y Exploración" translate="no">​</a></h2>
+<p>La plataforma recibe con gusto trabajo técnico y formal riguroso.</p>
+<p>Al mismo tiempo, el pensamiento exploratorio es tratado como una parte legítima y necesaria del desarrollo de investigación, y no como algo que deba permanecer oculto hasta estar completamente terminado.</p>
+<p>Una intuición útil suele ser más valiosa que una certeza prematura.</p>
+<p>La distinción importante no es si una idea está terminada, sino si su estado actual está comunicado con suficiente claridad para permitir una interacción significativa.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="qué-encontrarás-aquí">Qué Encontrarás Aquí<a href="https://isaidcornejo.github.io/ipi-research/es/notes/welcome#qu%C3%A9-encontrar%C3%A1s-aqu%C3%AD" class="hash-link" aria-label="Enlace directo a Qué Encontrarás Aquí" title="Enlace directo a Qué Encontrarás Aquí" translate="no">​</a></h2>
+<p>Con el tiempo, esta sección puede contener:</p>
+<ul>
+<li class="">ensayos,</li>
+<li class="">puentes conceptuales,</li>
+<li class="">comentarios técnicos,</li>
+<li class="">notas de desarrollo de proyectos,</li>
+<li class="">reflexiones sobre la estructura científica,</li>
+<li class="">explicaciones de conceptos difíciles,</li>
+<li class="">y exploraciones interdisciplinarias.</li>
+</ul>
+<p>Algunos textos pueden eventualmente evolucionar hacia proyectos de investigación formales.<br>
+<!-- -->Otros pueden permanecer exploratorios indefinidamente.</p>
+<p>Ambos resultados son válidos.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="reflexión-final">Reflexión Final<a href="https://isaidcornejo.github.io/ipi-research/es/notes/welcome#reflexi%C3%B3n-final" class="hash-link" aria-label="Enlace directo a Reflexión Final" title="Enlace directo a Reflexión Final" translate="no">​</a></h2>
+<p>La investigación no consiste únicamente en producir conclusiones.</p>
+<p>También consiste en hacer que las estructuras sean lo suficientemente comprensibles para que otras personas puedan interactuar con ellas de manera significativa.</p>
+<p>Ese proceso rara vez es lineal.<br>
+<!-- -->Con frecuencia es incompleto, iterativo y desordenado.</p>
+<p>Este espacio también existe para esa parte de la investigación.</p>
+<hr>
+<blockquote>
+<p>Cognición humana: redescubriendo repetidamente el universo, un archivo markdown parcialmente organizado a la vez.</p>
+</blockquote>]]></content:encoded>
+            <category>investigación</category>
+            <category>interdisciplinario</category>
+            <category>colaboración</category>
+            <category>sistemas</category>
+            <category>ciencia</category>
+        </item>
+    </channel>
+</rss>

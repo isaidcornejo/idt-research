@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkipi_research=self.webpackChunkipi_research||[]).push([["833"],{5513(e){e.exports=JSON.parse('{"title":"Publicaciones recientes","items":[{"title":"Bienvenido a Notas de Investigaci\xf3n","permalink":"/ipi-research/es/notes/welcome","unlisted":false,"date":"2026-05-11T00:00:00.000Z"}]}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkipi_research=self.webpackChunkipi_research||[]).push([["820"],{9731(e){e.exports=JSON.parse('{"metadata":{"permalink":"/ipi-research/es/notes","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Ensayos y notas para investigaci\xf3n interdisciplinaria.","blogTitle":"Notas de Investigaci\xf3n"}}')}}]);
