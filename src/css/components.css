@@ -1,0 +1,266 @@
+/* =========================================================
+   IPI RESEARCH — COMPONENTS
+   Admonitions, badges, cards, notices, utilities.
+   ========================================================= */
+
+/* =========================================================
+   Admonitions
+   ========================================================= */
+
+.alert {
+  border: 1px solid var(--ipi-border);
+
+  border-radius: var(--ipi-radius-lg);
+
+  box-shadow: none;
+}
+
+/* =========================================================
+   INFO
+   ========================================================= */
+
+.alert--info {
+  background: rgb(37 111 199 / 0.07);
+
+  border-color: rgb(37 111 199 / 0.16);
+}
+
+.alert--info .alert__title {
+  color: var(--ifm-color-primary);
+}
+
+/* =========================================================
+   WARNING
+   ========================================================= */
+
+.alert--warning {
+  background: rgb(245 158 11 / 0.08);
+
+  border-color: rgb(245 158 11 / 0.18);
+}
+
+.alert--warning .alert__title {
+  color: #b45309;
+}
+
+/* =========================================================
+   SUCCESS
+   ========================================================= */
+
+.alert--success {
+  background: rgb(16 185 129 / 0.08);
+
+  border-color: rgb(16 185 129 / 0.18);
+}
+
+.alert--success .alert__title {
+  color: #047857;
+}
+
+/* =========================================================
+   DANGER
+   ========================================================= */
+
+.alert--danger {
+  background: rgb(239 68 68 / 0.08);
+
+  border-color: rgb(239 68 68 / 0.18);
+}
+
+.alert--danger .alert__title {
+  color: #b91c1c;
+}
+
+/* =========================================================
+   DARK MODE — ADMONITIONS
+   ========================================================= */
+
+[data-theme="dark"] .alert--info {
+  background: rgb(115 167 230 / 0.08);
+
+  border-color: rgb(115 167 230 / 0.18);
+}
+
+[data-theme="dark"] .alert--warning {
+  background: rgb(245 158 11 / 0.1);
+
+  border-color: rgb(245 158 11 / 0.18);
+}
+
+[data-theme="dark"] .alert--warning .alert__title {
+  color: #fbbf24;
+}
+
+[data-theme="dark"] .alert--success {
+  background: rgb(16 185 129 / 0.1);
+
+  border-color: rgb(16 185 129 / 0.18);
+}
+
+[data-theme="dark"] .alert--success .alert__title {
+  color: #34d399;
+}
+
+[data-theme="dark"] .alert--danger {
+  background: rgb(239 68 68 / 0.1);
+
+  border-color: rgb(239 68 68 / 0.18);
+}
+
+[data-theme="dark"] .alert--danger .alert__title {
+  color: #f87171;
+}
+
+/* =========================================================
+   Admonition Typography
+   ========================================================= */
+
+.alert__title {
+  font-family: var(--ipi-font-ui);
+
+  font-weight: 700;
+
+  letter-spacing: -0.02em;
+}
+
+/* =========================================================
+   Badges
+   ========================================================= */
+
+.badge {
+  border-radius: 999px;
+
+  font-family: var(--ipi-font-ui);
+
+  font-weight: 600;
+
+  letter-spacing: 0.01em;
+}
+
+/* =========================================================
+   Generic Content Cards
+   ========================================================= */
+
+.ipi-card {
+  padding: 1.4rem;
+
+  border: 1px solid var(--ipi-border);
+
+  border-radius: var(--ipi-radius-xl);
+
+  background: var(--ipi-card-bg);
+
+  box-shadow: var(--ipi-shadow-sm);
+
+  transition:
+    transform var(--ipi-transition-fast),
+    border-color var(--ipi-transition-fast),
+    box-shadow var(--ipi-transition-fast);
+}
+
+.ipi-card:hover {
+  transform: translateY(-2px);
+
+  border-color: var(--ipi-border-strong);
+
+  box-shadow: var(--ipi-shadow-card);
+}
+
+/* =========================================================
+   Muted Panels
+   ========================================================= */
+
+.ipi-panel {
+  padding: 1.25rem 1.4rem;
+
+  border: 1px solid var(--ipi-border);
+
+  border-radius: var(--ipi-radius-lg);
+
+  background: var(--ipi-bg-soft);
+}
+
+/* =========================================================
+   Hero Glow Utility
+   ========================================================= */
+
+.ipi-glow {
+  position: relative;
+}
+
+.ipi-glow::before {
+  content: "";
+
+  position: absolute;
+  inset: 0;
+
+  background: var(--ipi-hero-glow);
+
+  pointer-events: none;
+}
+
+/* =========================================================
+   Kicker / Eyebrow Text
+   ========================================================= */
+
+.ipi-kicker {
+  color: var(--ifm-color-primary);
+
+  font-family: var(--ipi-font-ui);
+
+  font-size: var(--ipi-text-xs);
+
+  font-weight: 700;
+
+  letter-spacing: 0.14em;
+
+  text-transform: uppercase;
+}
+
+/* =========================================================
+   Section Headers
+   ========================================================= */
+
+.ipi-section-title {
+  margin-bottom: 1rem;
+
+  color: var(--ifm-heading-color);
+
+  font-family: var(--ipi-font-ui);
+
+  font-weight: 750;
+
+  letter-spacing: -0.04em;
+
+  line-height: 1.08;
+}
+
+.ipi-section-subtitle {
+  max-width: 760px;
+
+  color: var(--ipi-text-muted);
+
+  line-height: 1.75;
+}
+
+/* =========================================================
+   Dividers
+   ========================================================= */
+
+.ipi-divider {
+  width: 100%;
+
+  height: 1px;
+
+  background: var(--ipi-border);
+}
+
+/* =========================================================
+   Responsive Helpers
+   ========================================================= */
+
+@media (max-width: 768px) {
+  .ipi-card {
+    padding: 1.2rem;
+  }
+}

@@ -1,0 +1,105 @@
+/* =========================================================
+   IPI RESEARCH TOKENS
+   Global design tokens only.
+   ========================================================= */
+
+:root {
+  /* =========================================================
+     Typography
+     ========================================================= */
+
+  --ipi-font-ui:
+    "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+
+  --ipi-font-content:
+    "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+
+  --ipi-font-mono: "JetBrains Mono", "SFMono-Regular", Consolas, monospace;
+
+  /* =========================================================
+     Layout
+     ========================================================= */
+
+  --ipi-content-width: 760px;
+  --ipi-wide-width: 1120px;
+
+  --ipi-section-padding-y: 4rem;
+  --ipi-section-padding-x: 1.5rem;
+
+  /* =========================================================
+     Radius
+     ========================================================= */
+
+  --ipi-radius-sm: 0.35rem;
+  --ipi-radius-md: 0.55rem;
+  --ipi-radius-lg: 0.9rem;
+  --ipi-radius-xl: 1.2rem;
+
+  /* =========================================================
+     Shadows
+     Soft and editorial.
+     ========================================================= */
+
+  --ipi-shadow-sm: 0 1px 2px rgb(15 23 42 / 0.05);
+
+  --ipi-shadow-md: 0 10px 30px rgb(15 23 42 / 0.08);
+
+  --ipi-shadow-card: 0 14px 38px rgb(15 23 42 / 0.1);
+
+  /* =========================================================
+     Motion
+     ========================================================= */
+
+  --ipi-transition-fast: 150ms ease;
+  --ipi-transition-base: 220ms ease;
+
+  /* =========================================================
+     Typography Scale
+     ========================================================= */
+
+  --ipi-text-xs: 0.75rem;
+  --ipi-text-sm: 0.875rem;
+  --ipi-text-md: 1rem;
+  --ipi-text-lg: 1.08rem;
+  --ipi-text-xl: 1.25rem;
+
+  --ipi-heading-1: clamp(2.4rem, 5vw, 4.25rem);
+  --ipi-heading-2: clamp(1.8rem, 3vw, 2.5rem);
+  --ipi-heading-3: 1.35rem;
+
+  --ipi-line-content: 1.75;
+  --ipi-line-heading: 1.08;
+
+  /* =========================================================
+     Glow & Visual Effects
+     Subtle research aesthetic.
+     ========================================================= */
+
+  --ipi-hero-glow: radial-gradient(
+    circle at top,
+    rgb(37 111 199 / 0.12),
+    transparent 65%
+  );
+
+  --ipi-logo-shadow: drop-shadow(0 10px 24px rgb(37 111 199 / 0.12));
+
+  /* =========================================================
+     Docusaurus / Infima Mapping
+     Non-color tokens only.
+     ========================================================= */
+
+  --ifm-font-family-base: var(--ipi-font-content);
+  --ifm-heading-font-family: var(--ipi-font-ui);
+  --ifm-font-family-monospace: var(--ipi-font-mono);
+
+  --ifm-line-height-base: var(--ipi-line-content);
+
+  --ifm-global-radius: var(--ipi-radius-md);
+
+  --ifm-code-font-size: 0.92em;
+
+  --ifm-container-width: 1140px;
+  --ifm-container-width-xl: 1240px;
+}

@@ -1,0 +1,306 @@
+/* =========================================================
+   IPI RESEARCH — BASE
+   Global Docusaurus / layout styling.
+   ========================================================= */
+
+/* =========================================================
+   Global
+   ========================================================= */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--ifm-background-color);
+
+  color: var(--ifm-font-color-base);
+
+  font-family: var(--ifm-font-family-base);
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* =========================================================
+   Selection
+   ========================================================= */
+
+::selection {
+  background: rgb(37 111 199 / 0.18);
+}
+
+/* =========================================================
+   Layout
+   ========================================================= */
+
+main {
+  position: relative;
+}
+
+/* =========================================================
+   Navbar
+   ========================================================= */
+
+.navbar {
+  backdrop-filter: blur(18px);
+
+  border-bottom: 1px solid var(--ipi-border);
+
+  box-shadow: none;
+}
+
+.navbar__title {
+  font-family: var(--ipi-font-ui);
+
+  font-weight: 700;
+
+  letter-spacing: -0.02em;
+}
+
+.navbar__link {
+  font-family: var(--ipi-font-ui);
+
+  font-weight: 500;
+}
+
+/* =========================================================
+   Sidebar
+   ========================================================= */
+
+.theme-doc-sidebar-container {
+  border-right: 1px solid var(--ipi-border);
+}
+
+.menu {
+  font-family: var(--ipi-font-ui);
+}
+
+.menu__link {
+  border-radius: var(--ipi-radius-md);
+
+  transition:
+    background-color var(--ipi-transition-fast),
+    color var(--ipi-transition-fast);
+}
+
+.menu__link:hover {
+  background: rgb(37 111 199 / 0.06);
+}
+
+.menu__link--active {
+  font-weight: 600;
+}
+
+/* =========================================================
+   Table of Contents
+   ========================================================= */
+
+.table-of-contents {
+  font-family: var(--ipi-font-ui);
+}
+
+.table-of-contents__link {
+  transition: color var(--ipi-transition-fast);
+
+  opacity: 0.76;
+}
+
+.table-of-contents__link:hover {
+  opacity: 1;
+}
+
+.table-of-contents__link--active {
+  opacity: 1;
+
+  font-weight: 600;
+}
+
+/* =========================================================
+   Footer
+   ========================================================= */
+
+.footer,
+.footer.footer--dark {
+  border-top: 1px solid var(--ipi-border);
+  background: var(--ifm-footer-background-color);
+  color: var(--ifm-footer-color);
+}
+
+.footer.footer--dark {
+  --ifm-footer-background-color: var(--ipi-bg-soft);
+  --ifm-footer-color: var(--ipi-text);
+  --ifm-footer-link-color: var(--ipi-text-muted);
+  --ifm-footer-link-hover-color: var(--ipi-link);
+  --ifm-footer-title-color: var(--ipi-text-strong);
+}
+
+.footer__title {
+  color: var(--ifm-footer-title-color);
+  font-family: var(--ipi-font-ui);
+  font-weight: 700;
+}
+
+.footer__link-item {
+  color: var(--ifm-footer-link-color);
+  opacity: 1;
+}
+
+.footer__link-item:hover {
+  color: var(--ifm-footer-link-hover-color);
+  opacity: 1;
+  text-decoration: none;
+}
+
+.footer__copyright {
+  color: var(--ifm-footer-link-color);
+  opacity: 1;
+}
+
+/* =========================================================
+   Buttons
+   ========================================================= */
+
+.button {
+  border-radius: var(--ipi-radius-md);
+
+  font-family: var(--ipi-font-ui);
+
+  font-weight: 600;
+
+  transition:
+    transform var(--ipi-transition-fast),
+    background-color var(--ipi-transition-fast),
+    border-color var(--ipi-transition-fast),
+    color var(--ipi-transition-fast);
+}
+
+.button:hover {
+  transform: translateY(-1px);
+}
+
+/* Primary */
+
+.button--primary {
+  box-shadow: 0 10px 24px rgb(37 111 199 / 0.14);
+}
+
+/* Secondary */
+
+.button--secondary {
+  color: var(--ifm-color-primary);
+
+  background: transparent;
+
+  border: 1px solid var(--ipi-border);
+}
+
+.button--secondary:hover {
+  color: #ffffff;
+
+  background: var(--ifm-color-primary);
+
+  border-color: var(--ifm-color-primary);
+}
+
+/* Dark Theme Secondary */
+
+[data-theme="dark"] .button--secondary {
+  color: var(--ipi-blue-700);
+
+  border-color: var(--ipi-border-strong);
+
+  background: transparent;
+}
+
+[data-theme="dark"] .button--secondary:hover {
+  color: var(--ipi-bg);
+
+  background: var(--ipi-blue-600);
+
+  border-color: var(--ipi-blue-600);
+}
+
+/* =========================================================
+   Pagination
+   ========================================================= */
+
+.pagination-nav__link {
+  border: 1px solid var(--ipi-border);
+
+  border-radius: var(--ipi-radius-lg);
+
+  transition:
+    border-color var(--ipi-transition-fast),
+    transform var(--ipi-transition-fast);
+}
+
+.pagination-nav__link:hover {
+  transform: translateY(-2px);
+
+  border-color: var(--ifm-color-primary);
+}
+
+/* =========================================================
+   Cards
+   ========================================================= */
+
+.card {
+  border: 1px solid var(--ipi-border);
+
+  border-radius: var(--ipi-radius-lg);
+
+  background: var(--ipi-card-bg);
+
+  box-shadow: var(--ipi-shadow-sm);
+}
+
+/* =========================================================
+   Horizontal Rules
+   ========================================================= */
+
+hr {
+  border-color: var(--ipi-border);
+}
+
+/* =========================================================
+   Tables
+   ========================================================= */
+
+table {
+  overflow: hidden;
+
+  border-radius: var(--ipi-radius-md);
+}
+
+/* =========================================================
+   Images
+   ========================================================= */
+
+img {
+  max-width: 100%;
+}
+
+/* =========================================================
+   Code Blocks
+   ========================================================= */
+
+pre {
+  border: 1px solid var(--ipi-border);
+
+  border-radius: var(--ipi-radius-lg);
+}
+
+/* =========================================================
+   Responsive
+   ========================================================= */
+
+@media (max-width: 996px) {
+  .navbar {
+    backdrop-filter: blur(14px);
+  }
+
+  .table-of-contents {
+    display: none;
+  }
+}

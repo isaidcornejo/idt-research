@@ -1,0 +1,152 @@
+/* =========================================================
+   IPI RESEARCH THEME — LIGHT
+   ========================================================= */
+
+:root {
+  /* =========================================================
+     Brand
+     Elegant research blues.
+     ========================================================= */
+
+  --ipi-blue-50: #f3f8ff;
+  --ipi-blue-100: #e5f0ff;
+  --ipi-blue-200: #cfe2ff;
+  --ipi-blue-300: #a9c8f5;
+  --ipi-blue-400: #78a8eb;
+  --ipi-blue-500: #4f91e8;
+  --ipi-blue-600: #256fc7;
+  --ipi-blue-700: #1d5aa3;
+  --ipi-blue-800: #194982;
+  --ipi-blue-900: #172f50;
+
+  /* =========================================================
+     Secondary Accents
+     ========================================================= */
+
+  --ipi-violet: #6f67d8;
+  --ipi-teal: #2e8b84;
+
+  /* =========================================================
+     Backgrounds
+     ========================================================= */
+
+  --ipi-bg: #ffffff;
+
+  --ipi-bg-soft: #f8fafd;
+
+  --ipi-bg-muted: #eef3f9;
+
+  --ipi-card-bg: linear-gradient(
+    180deg,
+    rgb(255 255 255 / 0.96),
+    rgb(248 250 253 / 0.92)
+  );
+
+  /* =========================================================
+     Text
+     ========================================================= */
+
+  --ipi-text-strong: #0f172a;
+
+  --ipi-text: #243043;
+
+  --ipi-text-muted: #5f6f86;
+
+  --ipi-text-subtle: #8793a6;
+
+  /* =========================================================
+     Borders
+     ========================================================= */
+
+  --ipi-border: #dbe4f0;
+
+  --ipi-border-strong: #bfd0e2;
+
+  /* =========================================================
+     Links
+     ========================================================= */
+
+  --ipi-link: var(--ipi-blue-700);
+
+  --ipi-link-hover: var(--ipi-blue-800);
+
+  /* =========================================================
+     Navbar
+     ========================================================= */
+
+  --ipi-navbar-bg: rgb(255 255 255 / 0.78);
+
+  /* =========================================================
+     Docusaurus / Infima
+     ========================================================= */
+
+  --ifm-color-primary: var(--ipi-blue-600);
+
+  --ifm-color-primary-dark: var(--ipi-blue-700);
+
+  --ifm-color-primary-darker: var(--ipi-blue-800);
+
+  --ifm-color-primary-darkest: var(--ipi-blue-900);
+
+  --ifm-color-primary-light: var(--ipi-blue-500);
+
+  --ifm-color-primary-lighter: var(--ipi-blue-400);
+
+  --ifm-color-primary-lightest: var(--ipi-blue-300);
+
+  --ifm-background-color: var(--ipi-bg);
+
+  --ifm-background-surface-color: var(--ipi-bg-soft);
+
+  --ifm-font-color-base: var(--ipi-text);
+
+  --ifm-heading-color: var(--ipi-text-strong);
+
+  --ifm-link-color: var(--ipi-link);
+
+  --ifm-link-hover-color: var(--ipi-link-hover);
+
+  --ifm-navbar-background-color: var(--ipi-navbar-bg);
+
+  --ifm-navbar-link-color: var(--ipi-text);
+
+  --ifm-navbar-link-hover-color: var(--ipi-link);
+
+  --ifm-menu-color: var(--ipi-text);
+
+  --ifm-menu-color-active: var(--ipi-link);
+
+  --ifm-menu-color-background-active: rgb(37 111 199 / 0.08);
+
+  --ifm-toc-border-color: var(--ipi-border);
+
+  --ifm-color-emphasis-200: var(--ipi-border);
+
+  --ifm-color-emphasis-300: var(--ipi-border-strong);
+
+  --ifm-color-emphasis-700: var(--ipi-text-muted);
+
+  --ifm-code-background: #f3f6fa;
+
+  --ifm-code-color: #1f3a5f;
+
+  --ifm-table-border-color: var(--ipi-border);
+
+  --ifm-table-head-background: var(--ipi-bg-muted);
+
+  --ifm-blockquote-border-color: var(--ipi-blue-300);
+
+  --ifm-blockquote-color: var(--ipi-text-muted);
+
+  --ifm-footer-background-color: var(--ipi-bg-soft);
+  --ifm-footer-color: var(--ipi-text);
+  --ifm-footer-link-color: var(--ipi-text-muted);
+  --ifm-footer-link-hover-color: var(--ipi-link);
+  --ifm-footer-title-color: var(--ipi-text-strong);
+
+  /* =========================================================
+     Alerts / Admonitions
+     ========================================================= */
+
+  --ifm-alert-border-radius: var(--ipi-radius-lg);
+}

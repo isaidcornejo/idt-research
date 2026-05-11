@@ -1,0 +1,295 @@
+/* =========================================================
+   IPI RESEARCH — MARKDOWN
+   Editorial styling for docs, blog posts, and notes.
+   ========================================================= */
+
+/* =========================================================
+   Markdown Container
+   ========================================================= */
+
+.markdown {
+  font-size: var(--ipi-text-lg);
+
+  line-height: var(--ipi-line-content);
+
+  color: var(--ifm-font-color-base);
+}
+
+/* =========================================================
+   Paragraphs
+   ========================================================= */
+
+.markdown p {
+  margin-bottom: 1.35rem;
+
+  color: var(--ifm-font-color-base);
+}
+
+/* =========================================================
+   Headings
+   ========================================================= */
+
+.markdown h1,
+.markdown h2,
+.markdown h3,
+.markdown h4,
+.markdown h5,
+.markdown h6 {
+  color: var(--ifm-heading-color);
+
+  font-family: var(--ipi-font-ui);
+
+  font-weight: 750;
+
+  letter-spacing: -0.03em;
+
+  line-height: var(--ipi-line-heading);
+}
+
+.markdown h1 {
+  margin-bottom: 1.5rem;
+
+  font-size: var(--ipi-heading-1);
+}
+
+.markdown h2 {
+  margin-top: 4rem;
+  margin-bottom: 1.15rem;
+
+  padding-bottom: 0.45rem;
+
+  border-bottom: 1px solid var(--ipi-border);
+
+  font-size: var(--ipi-heading-2);
+}
+
+.markdown h3 {
+  margin-top: 2.75rem;
+  margin-bottom: 0.9rem;
+
+  font-size: var(--ipi-heading-3);
+}
+
+.markdown h4 {
+  margin-top: 2rem;
+}
+
+/* =========================================================
+   Links
+   ========================================================= */
+
+.markdown a {
+  font-weight: 500;
+
+  text-decoration-thickness: 0.08em;
+
+  text-underline-offset: 0.18em;
+
+  transition: color var(--ipi-transition-fast);
+}
+
+/* =========================================================
+   Lists
+   ========================================================= */
+
+.markdown ul,
+.markdown ol {
+  margin-bottom: 1.5rem;
+
+  padding-left: 1.4rem;
+}
+
+.markdown li {
+  margin-bottom: 0.45rem;
+
+  line-height: 1.72;
+}
+
+/* =========================================================
+   Blockquotes
+   ========================================================= */
+
+.markdown blockquote {
+  margin: 2rem 0;
+  padding: 1.15rem 1.35rem;
+
+  border-left: 4px solid var(--ifm-color-primary);
+
+  border-radius: 0 var(--ipi-radius-lg) var(--ipi-radius-lg) 0;
+
+  background: rgb(37 111 199 / 0.05);
+
+  color: var(--ifm-blockquote-color);
+
+  font-style: normal;
+}
+
+[data-theme="dark"] .markdown blockquote {
+  background: rgb(115 167 230 / 0.08);
+}
+
+/* =========================================================
+   Inline Code
+   ========================================================= */
+
+.markdown code {
+  padding: 0.18rem 0.4rem;
+
+  border: 1px solid var(--ipi-border);
+
+  border-radius: var(--ipi-radius-sm);
+
+  background: var(--ifm-code-background);
+
+  color: var(--ifm-code-color);
+
+  font-size: 0.92em;
+}
+
+/* =========================================================
+   Code Blocks
+   ========================================================= */
+
+.markdown pre {
+  margin: 1.75rem 0;
+
+  overflow-x: auto;
+
+  box-shadow: var(--ipi-shadow-sm);
+}
+
+.markdown pre code {
+  padding: 0;
+
+  border: 0;
+
+  background: transparent;
+}
+
+/* =========================================================
+   Tables
+   ========================================================= */
+
+.markdown table {
+  display: table;
+  width: 100%;
+
+  margin: 2rem 0;
+
+  overflow: hidden;
+
+  border-collapse: collapse;
+
+  background: var(--ifm-background-surface-color);
+}
+
+.markdown thead {
+  background: var(--ifm-table-head-background);
+}
+
+.markdown th,
+.markdown td {
+  padding: 0.85rem 1rem;
+
+  border: 1px solid var(--ifm-table-border-color);
+
+  text-align: left;
+}
+
+.markdown th {
+  font-family: var(--ipi-font-ui);
+
+  font-weight: 700;
+}
+
+/* =========================================================
+   Horizontal Rules
+   ========================================================= */
+
+.markdown hr {
+  margin: 3rem 0;
+
+  border: none;
+
+  border-top: 1px solid var(--ipi-border);
+}
+
+/* =========================================================
+   Images
+   ========================================================= */
+
+.markdown img {
+  margin: 2rem auto;
+
+  border-radius: var(--ipi-radius-lg);
+
+  box-shadow: var(--ipi-shadow-md);
+}
+
+/* =========================================================
+   Admonitions
+   ========================================================= */
+
+.theme-admonition {
+  border: 1px solid var(--ipi-border);
+
+  border-radius: var(--ipi-radius-lg);
+
+  box-shadow: none;
+}
+
+.theme-admonition-heading {
+  font-family: var(--ipi-font-ui);
+
+  font-weight: 700;
+}
+
+/* =========================================================
+   Blog
+   ========================================================= */
+
+article header h1 {
+  max-width: 920px;
+}
+
+article footer {
+  margin-top: 4rem;
+}
+
+/* =========================================================
+   Pagination
+   ========================================================= */
+
+.pagination-nav {
+  margin-top: 4rem;
+}
+
+/* =========================================================
+   Footnotes
+   ========================================================= */
+
+.footnotes {
+  margin-top: 4rem;
+
+  font-size: var(--ipi-text-sm);
+
+  color: var(--ipi-text-muted);
+}
+
+/* =========================================================
+   Responsive
+   ========================================================= */
+
+@media (max-width: 768px) {
+  .markdown {
+    font-size: 1rem;
+  }
+
+  .markdown h1 {
+    line-height: 1.1;
+  }
+
+  .markdown h2 {
+    margin-top: 3rem;
+  }
+}

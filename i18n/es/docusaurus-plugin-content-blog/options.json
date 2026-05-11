@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "Notas de Investigación",
+    "description": "The title for the blog used in SEO"
+  },
+  "description": {
+    "message": "Ensayos y notas para investigación interdisciplinaria.",
+    "description": "The description for the blog used in SEO"
+  },
+  "sidebar.title": {
+    "message": "Publicaciones recientes",
+    "description": "The label for the left sidebar"
+  }
+}
